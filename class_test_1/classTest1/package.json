@@ -1,0 +1,13 @@
+{
+  "name": "class_test_1",
+  "version": "1.0.0",
+  "description": "Create a server witht the help of http module.And listen that server on port number 3000.In this server create three urls /home ,/about,/contact. And respond to the client according to these url , home page , about page , contact page respectively.And also console method , url and header on each request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

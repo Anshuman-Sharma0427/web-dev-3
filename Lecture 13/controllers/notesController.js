@@ -83,3 +83,8 @@ const deleteNote = (req, res) => {
 }
 }
 module.exports = { getNotes, getNoteById, createNote, updateNote, deleteNote }
+
+// 🛠️ What a Controller Does:
+// • Reads data sent by the user (like forms, IDs, or search words).
+// • Asks the database to find, save, or delete that data.
+// • Sends back a response with the correct status code (like 200 OK for success or 404 Not Found).
