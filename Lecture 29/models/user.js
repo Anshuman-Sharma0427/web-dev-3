@@ -37,6 +37,7 @@ const user = new mongoose.Schema({
     }
 })
 
+
 const userSchema = mongoose.model("user", user) // ye collection create krega
 
 module.exports = userSchema;
